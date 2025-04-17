@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HypeScents</title>
+    <link rel="stylesheet" href="Style.css">
+</head>
+<body>
+    <header class="header">
+        <a href="index.html">Volver a la tienda</a>
+        <div class="menu container">
+            <a href="#" class="logo">logo</a>
+            <input type="checkbox" id="menu"/>
+            <label for="menu">
+                <img src="images/menu.svg" class="menu-icono" alt="menu">
+            </label>
+            <label for="logo">
+                <img src="images/logo.png" class="logo" alt="menu">
+            </label>
+            <nav class="navbar">
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li><a href="#">Contactos</a></li>
+                </ul>
+            </nav>
+            <div>
+                <ul>
+                    <li class="submenu">
+                        <img src="images/car.svg"id="img-carrito" alt="carrito">
+                        <div id="carrito">
+                            <table id="lista-carrito">
+                                <thead>
+                                    <tr>
+                                        <th>Imagen</th>
+                                        <th>Nombre</th>
+                                        <th>Precio</th>
+                                        <th></th>
+                                    </tr>
+                                </thead>
+                            </table>
+                            <a href="#" class="btn-2" id="vaciar-carrito">Vaciar Carrito</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </header>
+
+
+    <main class="products container" id="lista-1">
+        <div class="product-content">
+            <div class="products">
+                <img id="producto-img" src="" alt="Producto">
+                <h3 id="producto-nombre"></h3>
+                <p id="producto-descripcion"></p>
+                <p class="precio" id="producto-precio"></p>
+                <p id="producto-stock"></p>
+                <h4>Características</h4>
+                <p id="caracteristicas"></p>
+                <h4>Recomendaciones de uso</h4>
+                <p id="recomendaciones"></p>
+                <a href="#" class="agregar-carrito btn-2" data-id="1">Contactanos</a>
+            </div>
+        </div>
+    </main>
+    
+    <footer class=" footer container">
+        <div class="link">
+            <h3>Lldnflas</h3>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+
+        <div class="link">
+            <h3>Lldnflas</h3>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+
+        <div class="link">
+            <h3>Lldnflas</h3>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+
+        <div class="link">
+            <h3>Lldnflas</h3>
+            <ul>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+                <li><a href="#">lorem</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="detallesProduc.js"></script>
+</body>
