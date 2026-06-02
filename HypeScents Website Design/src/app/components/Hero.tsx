@@ -18,21 +18,21 @@ export function Hero({ onNavigateToProduct }: HeroProps) {
       {/* Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4">
         <h1 className="text-5xl md:text-7xl font-serif mb-6 leading-tight">
-          HypeScents
+          AURA
         </h1>
         <p className="text-xl md:text-2xl mb-8 text-gray-200">
-          Tu esencia, tu estilo
+          Tu aura, tu identidad
         </p>
         <p className="text-lg mb-10 text-gray-300 max-w-2xl mx-auto">
-          Descubre nuestra exclusiva colección de perfumes de las marcas más prestigiosas del mundo. 
-          Encuentra la fragancia que define tu personalidad.
+          Descubre fragancias que expresan quién eres. Perfumes para jóvenes que buscan
+          autenticidad y estilo a un precio accesible.
         </p>
-        <Button 
-          size="lg" 
-          className="bg-amber-600 hover:bg-amber-700 text-white px-8 py-3 text-lg transition-all duration-300 transform hover:scale-105"
+        <Button
+          size="lg"
+          className="bg-violet-600 hover:bg-violet-700 text-white px-8 py-3 text-lg transition-all duration-300 transform hover:scale-105"
           onClick={onNavigateToProduct}
         >
-          Explorar Perfumes
+          Explorar Fragancias
         </Button>
       </div>
 

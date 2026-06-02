@@ -23,8 +23,8 @@ export function Header({ currentPage, onNavigate }: HeaderProps) {
   const getNavItemClasses = (page: Page) => {
     const baseClasses = "transition-colors cursor-pointer";
     return currentPage === page 
-      ? `${baseClasses} text-amber-600 font-medium`
-      : `${baseClasses} text-gray-700 hover:text-amber-600`;
+      ? `${baseClasses} text-violet-600 font-medium`
+      : `${baseClasses} text-gray-700 hover:text-violet-600`;
   };
 
   const handleMobileNavigation = (page: Page) => {
@@ -42,7 +42,7 @@ export function Header({ currentPage, onNavigate }: HeaderProps) {
       <div className="container mx-auto px-4 py-4 flex items-center justify-between">
         {/* Logo */}
         <div className="flex items-center space-x-2 cursor-pointer" onClick={() => onNavigate("inicio")}>
-          <h1 className="text-2xl font-serif font-medium text-gray-900">HypeScents</h1>
+          <h1 className="text-2xl font-serif font-medium text-gray-900">AURA</h1>
         </div>
 
         {/* Desktop Navigation */}
@@ -66,7 +66,7 @@ export function Header({ currentPage, onNavigate }: HeaderProps) {
             Catálogo
           </span>
           <span 
-            className="text-gray-700 hover:text-amber-600 transition-colors cursor-pointer"
+            className="text-gray-700 hover:text-violet-600 transition-colors cursor-pointer"
             onClick={scrollToFooter}
           >
             Contacto
@@ -75,14 +75,14 @@ export function Header({ currentPage, onNavigate }: HeaderProps) {
 
         {/* Right side actions */}
         <div className="flex items-center space-x-4">
-          <Button variant="ghost" size="icon" className="hidden md:flex hover:text-amber-600">
+          <Button variant="ghost" size="icon" className="hidden md:flex hover:text-violet-600">
             <Search className="h-5 w-5" />
           </Button>
-          <Button variant="ghost" size="icon" className="hover:text-amber-600">
+          <Button variant="ghost" size="icon" className="hover:text-violet-600">
             <User className="h-5 w-5" />
           </Button>
           <Cart>
-            <Button variant="ghost" size="icon" className="hover:text-amber-600">
+            <Button variant="ghost" size="icon" className="hover:text-violet-600">
               <ShoppingCart className="h-5 w-5" />
             </Button>
           </Cart>
@@ -120,7 +120,7 @@ export function Header({ currentPage, onNavigate }: HeaderProps) {
               Catálogo
             </span>
             <span 
-              className="block text-gray-700 hover:text-amber-600 transition-colors cursor-pointer"
+              className="block text-gray-700 hover:text-violet-600 transition-colors cursor-pointer"
               onClick={handleMobileContact}
             >
               Contacto
