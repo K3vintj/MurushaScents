@@ -120,8 +120,8 @@ export function ProductCard({
       <CardContent className="p-6">
         <div className="space-y-3">
           <div>
-            <p className="text-sm text-amber-600 font-medium">{brand}</p>
-            <h3 className="font-serif text-lg text-gray-900 group-hover:text-amber-600 transition-colors">
+            <p className="text-sm text-violet-600 font-medium">{brand}</p>
+            <h3 className="font-serif text-lg text-gray-900 group-hover:text-violet-600 transition-colors">
               {name}
             </h3>
           </div>
@@ -158,7 +158,7 @@ export function ProductCard({
           </div>
 
           <Button 
-            className="w-full bg-gray-900 hover:bg-amber-600 text-white transition-colors duration-300"
+            className="w-full bg-gray-900 hover:bg-violet-600 text-white transition-colors duration-300"
             onClick={handleAddToCart}
             disabled={isLoading}
           >
